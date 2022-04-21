@@ -1,0 +1,11 @@
+import random
+a=random.randint(0,5)
+b=int(input("guess a number"))
+while a!=b:
+    if a==b:
+        print("wrong guess, right guess")
+    else:
+        b=int(input("guess again "))
+
+print("right guess")
+print("the right number was :" ,a)
